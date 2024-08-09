@@ -1,0 +1,120 @@
+.spaceMartyrs {
+  margin: 0;
+  width: 637px;
+  position: relative;
+  font-size: inherit;
+  line-height: 106px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameChild,
+.v001 {
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.v001 {
+  width: 214px;
+  line-height: 120%;
+  display: inline-block;
+}
+.frameChild {
+  line-height: 77px;
+}
+.textWrapper,
+.v001Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textWrapper {
+  flex-direction: column;
+  padding: 9.5px 0 0;
+  font-size: 64px;
+  color: #f6f7f9;
+}
+.v001Parent {
+  flex-direction: row;
+  gap: 43px;
+  max-width: 100%;
+  font-size: 80px;
+  color: #d946ef;
+  font-family: Inter;
+}
+.bgIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -124px;
+  max-height: 100%;
+  width: 2167px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.tarot1Icon,
+.tarot2Icon {
+  position: absolute;
+  top: 244.1px;
+  left: 0;
+  border-radius: 6px;
+  width: 161.3px;
+  height: 199.1px;
+  object-fit: contain;
+}
+.tarot1Icon {
+  top: 0;
+  left: 18.9px;
+  width: 157.6px;
+  height: 196.4px;
+}
+.illusts,
+.mainillustIcon {
+  position: absolute;
+  z-index: 1;
+}
+.mainillustIcon {
+  top: 8.3px;
+  left: 129px;
+  width: 874px;
+  height: 874px;
+  object-fit: cover;
+}
+.illusts {
+  top: 198px;
+  left: 829px;
+  width: 1003px;
+  height: 882.3px;
+}
+.bgParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.cover {
+  width: 100%;
+  position: relative;
+  background-color: #24252d;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 369px 20px 477px 156px;
+  box-sizing: border-box;
+  gap: 32px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 96px;
+  color: #fff;
+  font-family: Kokoro;
+}

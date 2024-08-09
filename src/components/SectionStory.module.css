@@ -1,0 +1,173 @@
+.story,
+.theCosmosOf {
+  margin: 0;
+  position: relative;
+}
+.story {
+  font-size: inherit;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: inherit;
+  background: linear-gradient(
+    104.33deg,
+    #00a1c7,
+    #f5559e 48.39%,
+    #fff,
+    #ed7d0c
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.theCosmosOf {
+  font-size: var(--font-size-xl);
+  line-height: 160%;
+  font-weight: 300;
+  font-family: var(--font-open-sans);
+}
+.storysectionheading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.storysectiondescription {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--base-txt-size);
+  line-height: 200%;
+  font-weight: 200;
+  color: var(--color-semantic-color-base-txt);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.texts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.tarot11Icon,
+.tarot2Icon {
+  width: 112px;
+  height: 138.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: 178.9px;
+  left: 0;
+  border-radius: var(--radius-radius-md);
+  object-fit: contain;
+}
+.tarot2Icon {
+  width: 109.4px;
+  height: 136.4px;
+  top: 9.4px;
+  left: 13.2px;
+}
+.mainillustIcon {
+  width: 607px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.absoluteillusts {
+  width: 696.5px;
+  margin: 0 !important;
+  position: absolute;
+  right: -648px;
+  bottom: -222.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.container,
+.storyContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container {
+  width: 672px;
+  justify-content: flex-start;
+  padding: 0 var(--spacing-semantic-spaceing-container-side);
+  position: relative;
+  gap: var(--gap-24xl);
+}
+.storyContent {
+  width: 924px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  flex-shrink: 0;
+}
+.absolutebottomgradient {
+  align-self: stretch;
+  height: 150px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0), #0f172a);
+  flex-shrink: 0;
+}
+.sectionStory {
+  align-self: stretch;
+  height: 695px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-204xl-5) 0;
+  box-sizing: border-box;
+  gap: var(--gap-57xl-5);
+  max-width: 100%;
+  z-index: 6;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--base-txt);
+}
+@media screen and (max-width: 1100px) {
+  .sectionStory {
+    padding-top: var(--padding-1758xl-9);
+    padding-bottom: var(--padding-126xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .story {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .container {
+    gap: var(--gap-2xl);
+  }
+  .sectionStory {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .story {
+    font-size: var(--font-size-10xl);
+    line-height: 29px;
+  }
+  .theCosmosOf {
+    font-size: var(--base-txt-size);
+    line-height: 26px;
+  }
+  .sectionStory {
+    gap: var(--gap-lgi);
+    padding-bottom: var(--padding-75xl);
+    box-sizing: border-box;
+  }
+}

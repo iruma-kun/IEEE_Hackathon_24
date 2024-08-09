@@ -1,0 +1,315 @@
+.space,
+.yourAppearanceIn {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.space {
+  font-size: inherit;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: 900;
+  background: linear-gradient(
+    104.33deg,
+    #00a1c7,
+    #f5559e 48.39%,
+    #fff,
+    #ed7d0c
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yourAppearanceIn {
+  font-size: var(--font-size-xl);
+  line-height: 160%;
+  font-weight: 300;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.allLifeForms {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--base-txt-size);
+  line-height: 200%;
+  font-weight: 200;
+  color: var(--color-semantic-color-base-txt);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.texts {
+  width: 888px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.tarot11Icon,
+.tarot1Icon,
+.tarot2Icon {
+  height: 298.1px;
+  width: 243.3px;
+  position: relative;
+  border-radius: var(--radius-radius-md);
+  object-fit: contain;
+}
+.tarot1Icon,
+.tarot2Icon {
+  height: 369px;
+  width: 271px;
+  object-fit: cover;
+}
+.tarot2Icon {
+  height: 292.2px;
+  width: 234.4px;
+  object-fit: contain;
+}
+.tarotsitems {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.tarotcarouselcontrollerprevIcon {
+  height: 35px;
+  width: 35px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 35px;
+}
+.index1 {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+}
+.vectorIcon {
+  height: 20px;
+  width: 10px;
+  position: relative;
+}
+.tarotcarouselcontrollernext,
+.tarotcarouselcontrollers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tarotcarouselcontrollernext {
+  width: 35px;
+  padding: var(--padding-5xs-5) var(--padding-xs);
+  box-sizing: border-box;
+  height: 35px;
+}
+.tarotcarouselcontrollers {
+  width: 139px;
+  margin: 0 !important;
+  position: absolute;
+  top: -17.8px;
+  left: 779.7px;
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.containerWithsidecol,
+.tarotspart {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tarotspart {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.containerWithsidecol {
+  width: 1280px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-312xl) 0
+    var(--spacing-semantic-spaceing-container-side);
+  gap: var(--gap-29xl);
+}
+.shootingstarsIcon {
+  width: 143.4px;
+  height: 158.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: -16.8px;
+  left: 1035.3px;
+  object-fit: contain;
+  z-index: 1;
+}
+.wavevectorIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.decowaves,
+.storywave1,
+.storywave2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.storywave1 {
+  width: 2229.5px;
+  overflow: hidden;
+  align-items: flex-start;
+  max-width: 148%;
+  flex-shrink: 0;
+}
+.decowaves,
+.storywave2 {
+  margin: 0 !important;
+  position: absolute;
+  z-index: 1;
+}
+.storywave2 {
+  width: 2229.5px;
+  top: 0;
+  left: -358.7px;
+  overflow: hidden;
+  align-items: center;
+  opacity: 0.6;
+}
+.decowaves {
+  width: 1512px;
+  bottom: 0;
+  left: 0;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tarotsidecardinfoIcon,
+.tarotsidecardinfoIcon1,
+.tarotsidecardinfoIcon2 {
+  border: 0;
+  background-color: transparent;
+  height: 302.8px;
+  width: 342.8px;
+  outline: 0;
+  margin: 0 !important;
+  position: absolute;
+  top: 23px;
+  left: -45px;
+  border-radius: var(--br-xs);
+  object-fit: contain;
+}
+.tarotsidecardinfoIcon1,
+.tarotsidecardinfoIcon2 {
+  height: 269px;
+  width: 339.9px;
+  top: 281px;
+  left: -51px;
+  z-index: 1;
+}
+.tarotsidecardinfoIcon2 {
+  height: 280.9px;
+  width: 340.9px;
+  top: 500px;
+  left: -62px;
+  z-index: 2;
+}
+.sectionTarot,
+.sectionTarotWrapper,
+.sidecol {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.sidecol {
+  width: 320px;
+  height: 757px;
+  margin: 0 !important;
+  position: absolute;
+  top: 1px;
+  right: 0;
+  background-color: var(--color-semantic-color-side-col);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-4xl) var(--padding-3xl) 0 0;
+  z-index: 2;
+}
+.sectionTarot,
+.sectionTarotWrapper {
+  max-width: 100%;
+}
+.sectionTarot {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: relative;
+  min-height: 757px;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.sectionTarotWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-18xl);
+  margin-top: -39px;
+  text-align: left;
+  font-size: var(--font-size-25xl);
+  color: var(--color-gray-100);
+  font-family: var(--base-txt);
+}
+@media screen and (max-width: 1275px) {
+  .containerWithsidecol {
+    padding-right: var(--spacing-semantic-spaceing-container-side);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .space {
+    font-size: var(--font-size-16xl);
+    line-height: 35px;
+  }
+  .index1 {
+    font-size: var(--font-size-7xl);
+    line-height: 26px;
+  }
+  .containerWithsidecol {
+    gap: var(--gap-5xl);
+    padding-right: var(--spacing-semantic-spaceing-container-side);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .space {
+    font-size: var(--font-size-7xl);
+    line-height: 26px;
+  }
+  .yourAppearanceIn {
+    font-size: var(--base-txt-size);
+    line-height: 26px;
+  }
+  .index1 {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .containerWithsidecol {
+    padding-right: var(--spacing-semantic-spaceing-container-side);
+    box-sizing: border-box;
+  }
+}

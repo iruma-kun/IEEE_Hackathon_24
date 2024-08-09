@@ -1,0 +1,93 @@
+.headerleftcol {
+  height: 39px;
+  width: 165px;
+}
+.mission,
+.people,
+.space,
+.spaceships,
+.story {
+  position: relative;
+  line-height: 17px;
+  font-weight: 200;
+  display: inline-block;
+  min-width: 46px;
+}
+.mission,
+.people,
+.space,
+.spaceships {
+  min-width: 59px;
+}
+.people,
+.space,
+.spaceships {
+  min-width: 44px;
+}
+.people,
+.spaceships {
+  min-width: 53px;
+}
+.spaceships {
+  min-width: 84px;
+}
+.headergnav,
+.playnowbtntxt {
+  font-size: var(--font-size-sm);
+  font-family: var(--base-txt);
+  color: var(--color-white);
+  text-align: left;
+}
+.headergnav {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-6);
+  max-width: 100%;
+}
+.playnowbtntxt {
+  position: relative;
+  line-height: 17px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 64px;
+}
+.header,
+.headerplaynowbtn,
+.headerrightcol {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.headerplaynowbtn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-4xs);
+  background-color: var(--color-hotpink);
+  border-radius: var(--br-5xs);
+  justify-content: center;
+}
+.headerplaynowbtn:hover {
+  background-color: var(--color-mediumvioletred);
+}
+.header,
+.headerrightcol {
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.header {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: var(--padding-4xs-5) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+@media screen and (max-width: 750px) {
+  .headergnav {
+    display: none;
+  }
+}
