@@ -1,10 +1,10 @@
 # IEEEVitBhopal_BLH03_apple_cider
 ---
 ## Project Title
-Interactive Educative Website on Space Martyrs using Django and React
+- Interactive Educative Website on Space Martyrs using Django and React framework.
 ---
 ## Team name 
-apple_cider
+- apple_cider
 ---
 ## Team Members
 - Tanish Mishra (23BAI1395)
